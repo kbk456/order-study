@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/order?serverTimezone=UTC&characterEncoding=UTF-8
+    username: user
+    password: 1234
+  flyway:
+    user: user
+    password: 1234
+    schemas: order
+    url: jdbc:mysql://localhost:3306/order?serverTimezone=UTC&characterEncoding=UTF-8
+    enabled: true
